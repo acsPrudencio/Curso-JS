@@ -52,3 +52,32 @@ Trocando ponto por vírgula
 variavel.toFixed(quantidade de casa).replace('.',',')
 Define uma formatação monetária
 n1.toLocaleString('pt-Br', {style: 'currency', currency: 'BRL'})
+
+//Aula 7
+Operadores aritméticos
+5/2=5.5
+5**2=25
+
+//Aula 8
+Operadore de identidade
+
+5 == 5 true
+5 == '5' true //Verifica se os valores são iguais(Não verifica o tipo)
+5 === '5' false // Verifica se operadores são iguais(Valor e tipo) 
+5 === 5 true //Verifica se o valor e o tipo são iguais
+
+Ordem de precedência dos operadores
+Aritméticos(*, /, %, +, -), relacionais(<, <=, >, >=) e lógicos(!, &&, ||)
+
+
+Operador ternário(ifzão)
+
+condição(true or false)?true:false
+Se a condição for true, execulta o comando depois do ?, caso contrario execulta o comando depois do :
+
+EX:
+var media = 5.5
+media > 7?Aprovado:Reprovado//saída reprovado
+
+var media = 8
+media > 7?Aprovado:Reprovado//saída aprovado
