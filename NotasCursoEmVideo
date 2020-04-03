@@ -1,3 +1,54 @@
+//Aula 4
 window.alert('Minha primeira mensagem') // pop-up com uma msg de alerta na tela
 window.confirm('Está gostando de JS?')//pop-up para confirmação
 window.prompt('Qual seu nome ?')//pop-up para receber conteúdo
+
+//Aula 5
+> typeof n
+'number'
+> n = 'google'
+'google'
+> typeof n
+'string'
+> typeof 6
+'number'
+> typeof sd
+'undefined'
+> typeof 's'
+'string'
+> typeof [w]
+Uncaught ReferenceError: w is not defined
+> typeof [4]
+'object'
+> typeof function(){}
+'function'
+> typeof null
+'object'
+> typeof NaN
+'number'
+> typeof true
+'boolean'
+> typeof false
+'boolean'
+
+//Aula 6
+<!-- Comentario em HTML -->
+
+Number.parseInt(n) ou Number(n)//Converte n para um tipo inteiro
+
+Number.parseFloat(n) ou Number(n)//Converte n para um tipo float
+
+n.toString() ou String(n)//Converte n para um tipo String
+
+Formatação de String
+
+var s = 'JavaScript'
+
+`O aluno ${nome} com idade ${idade} tirou nota ${nota}`
+
+Formatação de números inteiros
+variavel.toFixed(quantidade de casa)
+Trocando ponto por vírgula
+variavel.toFixed(quantidade de casa).replace('.',',')
+Define uma formatação monetária
+n1.toLocaleString('pt-Br', {style: 'currency', currency: 'BRL'})
