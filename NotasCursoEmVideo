@@ -1,3 +1,3 @@
-window.alert('Minha primeira mensagem') // PopUp com uma msg de alerta na tela
-window.confirm('Está gostando de JS?')//Popup para confirmação
-window.prompt('Qual seu nome ?')//Popup para receber conteúdo
+window.alert('Minha primeira mensagem') // pop-up com uma msg de alerta na tela
+window.confirm('Está gostando de JS?')//pop-up para confirmação
+window.prompt('Qual seu nome ?')//pop-up para receber conteúdo
