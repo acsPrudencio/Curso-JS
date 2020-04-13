@@ -108,7 +108,7 @@ numero[3] = 4
 Adiconando elemento no final do vetor
 numero.push(elemento)
 
-Retorna o valor do vetor
+Retorna o tamanho do vetor
 numero.length
 
 Organiza os elemento em ordem crescente
@@ -116,3 +116,16 @@ numero.sort()
 
 Procura um elemento dentro de um vetor e retorna a posição do elemento, se não existir retorna -1
 indexOf()
+
+Criar uma lista de seleção
+<select name="res" id="res" size="10" >
+    //A lista recebe um option para exibir na tela
+        <option>
+         Digite um número acima
+        </option>
+</select>
+
+No js deve ser passado uma option como parametro para exibição da seguinte maneira
+let resultado = document.createElement('option')
+    resultado.text = `${numero} x ${i} = ${numero*i}`
+    res.appendChild(resultado)
