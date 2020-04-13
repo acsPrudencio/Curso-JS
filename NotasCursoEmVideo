@@ -100,3 +100,19 @@ innerHTML pega o texto com todas as formatações
 innerText pega o texto sem formatação
 
 querySelector() usar o ponto '.' para selecionar uma classe(função) e '#' para id
+
+//Aula15
+Adicionando elemento em posição especifica
+numero[3] = 4
+
+Adiconando elemento no final do vetor
+numero.push(elemento)
+
+Retorna o valor do vetor
+numero.length
+
+Organiza os elemento em ordem crescente
+numero.sort()
+
+Procura um elemento dentro de um vetor e retorna a posição do elemento, se não existir retorna -1
+indexOf()
